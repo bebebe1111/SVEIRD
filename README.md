@@ -24,7 +24,7 @@ Python 3.12.3, FEniCS 2019.2.0.64.dev0, numpy, scipy, matplotlib, pandas, openpy
 В блоке `__main__` в конце `run_experiments.py` заданы `DT`, `OUT` и переключатели расчётов. Основные результаты получены при `DT = 0.125` (папка `results_dt0125`). Для сравнения стратегий при крупном шаге поставьте `DT = 0.5`, `OUT = 'results_dt05'` и отключите сходимость и чувствительность (`RUN_CONVERGENCE = False`, `RUN_SENSITIVITY = False`).
 
 ## Данные
-Файл `data.xlsx` в репозиторий не включён. Используется набор А. Куприянова «COVID-19 in the Russian Federation» (ежедневные данные по регионам, 31.01.2020–15.05.2023): [https://github.com/alexei-kouprianov/COVID.2019.ru](https://github.com/alexei-kouprianov/COVID.2019.ru), DOI 10.20375/0000-0010-05BF-2. Скачайте файл с данными по регионам и положите его рядом с `make_real_data.py`.
+Файл `data.xlsx` в репозиторий не включён. Используется набор А. Куприянова «COVID-19 in the Russian Federation» (ежедневные данные по регионам, 31.01.2020–15.05.2023): [https://github.com/alexei-kouprianov/COVID.2019.ru](https://github.com/alexei-kouprianov/COVID.2019.ru). Скачайте файл с данными по регионам и положите его рядом с `make_real_data.py`.
 
 ## Лицензия
 MIT (файл LICENSE).
